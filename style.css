@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(-45deg, #22c1c3, #bd9236);
+}
+.a{
+    font-size: 5em;
+    position: relative;
+    text-align: center;
+    color: brown;
+    text-shadow: 0px 0px 10px red;
+    animation: bu 3s infinite;
+}
+.menu > li{
+    border: 3px double black;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    animation: u 3s infinite;
+    color: darkblue;
+    text-shadow: 0px 0px 10px blue;
+}
+.men > li{
+    border: 3px double black;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    animation: b 3s infinite;
+    color: darkgreen;
+    text-shadow: 0px 0px 10px green;
+}
+@keyframes bu{
+    0%{color: brown;
+        text-shadow: 0px 0px 10px red;}
+        25%{
+            color: darkmagenta;
+            text-shadow: 0px 0px 10px magenta;
+        }
+        50%{
+            color: olive;
+            text-shadow: 0px 0px 10px olivedrab;
+        }
+        75%{
+            color: seagreen;
+            text-shadow: 0px 0px 10px springgreen;
+        }
+        100%{color: brown;
+            text-shadow: 0px 0px 10px red;}
+}
+@keyframes b{
+    0%{color: darkgreen;
+        text-shadow: 0px 0px 10px green;}
+        25%{
+            color: darkmagenta;
+            text-shadow: 0px 0px 10px magenta;
+        }
+        50%{
+            color: seagreen;
+            text-shadow: 0px 0px 10px springgreen;
+        }
+        75%{
+            color: olive;
+            text-shadow: 0px 0px 10px olivedrab;
+        }
+        100%{color: darkgreen;
+            text-shadow: 0px 0px 10px green;}
+}
+@keyframes u{
+    0%{color: darkblue;
+        text-shadow: 0px 0px 10px blue;}
+        25%{
+            color: olive;
+            text-shadow: 0px 0px 10px olivedrab;
+        }
+        50%{
+            color: seagreen;
+            text-shadow: 0px 0px 10px springgreen;
+        }
+        75%{
+            color: darkmagenta;
+            text-shadow: 0px 0px 10px magenta;
+        }
+        100%{color: darkblue;
+            text-shadow: 0px 0px 10px blue;}
+}
+.i{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.l{
+    text-align: center;
+    color: brown;
+    text-shadow: 0px 0px 10px red;
+    animation: bu 3s infinite;
+}
+.m{
+    text-align: center;
+    animation: u 3s infinite;
+    color: darkblue;
+    text-shadow: 0px 0px 10px blue;
+}
+.q{
+    color: tomato;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0px 0px 10px palevioletred;
+}
+.div{
+    text-align: center;
+}
